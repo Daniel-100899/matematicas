@@ -1,0 +1,72 @@
+body{
+    background-image: url("imagenes/fondo4.jpg");
+    padding: 0;
+    margin: 0;
+
+}
+
+.menu table{
+    background-image: url("imagenes/fondo5.jpg");
+    padding: 0;
+    margin: 0;
+    width: 80%;
+    height: 50%;
+    border-radius: 50px;
+    outline: 10px solid red; 
+    tab-size: 20px;
+}
+
+th{
+
+   outline: 5px double red;
+    margin: 5px;
+}
+th:hover{
+    border-radius: 10px; 
+    background-image: url("imagenes/fondo.jpg");
+    outline: 5px solid black;
+    
+    
+}
+img{
+    width: 20%;
+    height: 20%;
+    position: relative;
+    top:10px;
+    left: 25%;
+}
+h2{
+    
+    color:rebeccapurple;
+    text-align: center;
+    font-family: Chiller;
+    font-size: 250% ;
+
+    padding: 10px;
+    position: relative;
+    top: 10px;
+}
+h3{
+    font-family: Chiller;
+    display: inline-block;
+    color: black;
+    font-size: 400% ;
+    padding: 2px 25px;
+    
+   
+  }
+  h1{ 
+     font-family: Bradley Hand ITC ; 
+    color:crimson;
+    text-align: center;
+    background-color: white;
+    font-size: 500% ;
+    outline: 3px double black;
+    padding: 10px;
+    position: relative;
+    top: 10px; 
+  }
+b{
+    font-family: Bradley Hand ITC ; 
+    font-size: 150%;
+}

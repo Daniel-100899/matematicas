@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="calcu.css">
+    </head>
+     <body><center><div class="opera">
+     <h2>HOLA, ESTOY AQUI PARA AYUDARTE.<h2>
+     <h5>Ingresa tu nombre completo:</h5>
+     <input type="text" size="40" placeholder="nombre completo" id="nombre">
+     <h5>Ingresa dos valores para calcular,<br>te devolveremos el resultado de cualquier tipo de operacion </h5>
+     <input type="text" size="40" placeholder="ingrese primer numero" id="num1"><br><br>
+      <input type="text" size="40" placeholder="ingrese segundo numero" id="num2"><br><br>
+      <button onclick="sumar()">sumar</button>
+      <button onclick="restar()">restar</button>
+      <button onclick="multiplicar()">multiplicar</button>
+      <button onclick="dividir()">dividir</button><br><br>
+      <img src="imagenes/pensar.gif"/>
+
+        <script>
+
+        function sumar(){
+          var nom=document.getElementById('nombre').value;
+             var n1=document.getElementById('num1').value;
+             var n2=document.getElementById('num2').value;
+      var resp=parseInt(n1)+parseInt(n2);
+        alert("Hola "+nom+" la suma es: "+resp);}
+      
+        </script>
+        <script>
+        function restar(){
+          var nom=document.getElementById('nombre').value;
+             var n1=document.getElementById('num1').value;
+             var n2=document.getElementById('num2').value;
+      var resp=parseInt(n1)-parseInt(n2);
+        alert("Hola "+nom+" la resta es: "+resp);}
+      
+        </script>
+        <script>
+        function multiplicar(){
+          var nom=document.getElementById('nombre').value;
+             var n1=document.getElementById('num1').value;
+             var n2=document.getElementById('num2').value;
+      var resp=parseInt(n1)*parseInt(n2);
+         alert("Hola "+nom+" la multiplicacion es: "+resp);}
+      
+        </script>
+        <script>
+        function dividir(){
+          var nom=document.getElementById('nombre').value;
+             var n1=document.getElementById('num1').value;
+             var n2=document.getElementById('num2').value;
+      var resp=parseInt(n1)/parseInt(n2);
+         alert("Hola "+nom+" la division es: "+resp);}
+      </script>
+      </div></center>
+    </body>
+</html>
